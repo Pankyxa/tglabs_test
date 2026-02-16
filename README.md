@@ -64,7 +64,7 @@ docker compose up --build -d
 2. Запустите скрипт внутри контейнера:
 ```bash
 # Если файл называется videos.json и лежит в корне
-docker compose exec bot python src/utils/loader.py
+docker compose exec bot python -m src.utils.loader
 ```
 
 ## Архитектура решения
