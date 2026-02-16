@@ -25,8 +25,8 @@
 
 ### 1. Клонирование и настройка
 ```bash
-git clone <your-repo-url>
-cd <your-repo-folder>
+git clone https://github.com/Pankyxa/tglabs_test.git
+cd tglabs_test
 cp .env.example .env
 ```
 
