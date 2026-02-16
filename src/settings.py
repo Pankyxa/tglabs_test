@@ -11,6 +11,9 @@ class Settings(BaseSettings):
     postgres_port: int
     postgres_database: str
 
+    openrouter_api_key: str
+    openrouter_model: str
+
     model_config = SettingsConfigDict(env_file=BASE_DIR / '.env')
 
     @property
