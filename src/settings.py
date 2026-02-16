@@ -14,6 +14,8 @@ class Settings(BaseSettings):
     openrouter_api_key: str
     openrouter_model: str
 
+    telegram_token: str
+
     model_config = SettingsConfigDict(env_file=BASE_DIR / '.env')
 
     @property
